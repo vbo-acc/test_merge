@@ -1,0 +1,43 @@
+java.lang.NullPointerException
+	at com.intellij.ide.projectView.impl.ProjectViewImpl.getContentManager(ProjectViewImpl.java:1214)
+	at com.intellij.ide.projectView.impl.ProjectViewImpl.changeViewCB(ProjectViewImpl.java:1280)
+	at com.intellij.openapi.externalSystem.service.project.manage.ContentRootDataService.lambda$null$1(ContentRootDataService.java:122)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.lambda$runWhenProjectIsInitialized$6(StartupManagerImpl.java:486)
+	at com.intellij.ui.GuiUtils.invokeLaterIfNeeded(GuiUtils.java:324)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runWhenProjectIsInitialized(StartupManagerImpl.java:472)
+	at com.intellij.openapi.externalSystem.service.project.manage.ContentRootDataService.lambda$importData$2(ContentRootDataService.java:120)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:309)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.doRun(LaterInvocator.java:441)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:906)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:779)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:422)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:698)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:421)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+	IntelliJ IDEA 2019.3 Snapshot (Ultimate Edition)
+    Build #IU-193.4249, built on October 4, 2019
+    IntelliJ IDEA EAP User
+    Expiration date: November 3, 2019
+    Runtime version: 11.0.4+10-b494.1 amd64
+    VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
+    Linux 4.15.0-62-generic
+    GC: G1 Young Generation, G1 Old Generation
+    Memory: 750M
+    Cores: 2
+    Registry:
+    Non-Bundled Plugins:
